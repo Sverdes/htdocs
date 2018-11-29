@@ -1,0 +1,90 @@
+
+@font-face {
+    font-family:'Trocchi';
+    src: url('Trocchi.eot') format('embedded-opentype'),
+    url('Trocchi.otf') format('opentype');
+}
+
+
+.divul {
+  background-color: #fefeb5 ;
+  line-height: 1.6vw;
+  padding: 1%;
+  margin-right: 25%;
+  margin-left: 25%;
+  text-align: center;
+  border-color: #e0ddd7;
+  border-style: solid;
+  border-radius: 60px 45px 30px 15px/15px 30px 45px 60px;
+}
+
+  .divuld {
+    line-height: 1.6em;
+    padding: 1%;
+    margin-right: 25%;
+    margin-left: 25%;
+    text-align: center;
+    border-color: #e0ddd7;
+    border-style: solid;
+    border-radius: 15px 30px 45px 60px/60px 45px 30px 15px;
+}
+
+    .divul p {
+      font-family: Helvetica;
+      display:inline-block;
+      color: #353434;
+}
+
+.responsive {
+    width: 100%;
+    height: auto;
+}
+
+.divuld p {
+  font-family: Helvetica;
+  text-align: justify;
+  font-size: 14px;
+  padding-left: 1em;
+  line-height: 1.4vw;
+  color: #353434;
+}
+
+.divuld h1 {
+  text-align: left;
+  font-size: large;
+  font-family: Helvetica;
+  color: #1265ad;
+}
+
+.divuld h2{
+  text-align: left;
+  font-size: 1.4vw;
+  font-family: Helvetica;
+  color: #1e8b09;
+
+}
+
+span {
+  color: #1e8b09;
+  font-family: Arial;
+  font-size: 1.1em;
+  font-style: normal;
+}
+
+  #cool {
+    color: #1265ad;
+    font-family:'Trocchi';
+    font-size: 2.2em;
+  }
+
+#gradient {
+  background: linear-gradient(#efebea, #fefeb5);
+  position: relative;
+}
+
+a {
+  font-family:Arial;
+  font-size: small;
+  font color: #597c9c;
+  text-decoration: none;
+}
