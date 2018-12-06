@@ -1,0 +1,30 @@
+html, body {
+  background-color: #F0F0ED;
+  font-size: 1.1em;
+  font: Sans-serif;
+
+}
+
+div {
+  border-width: medium;
+  border-color: #AC0FEB;
+  border-style: dotted;
+  width: 300px;
+   }
+div:nth-child(1) {
+  background-color: #E0E713;
+}
+div:nth-child(2) {
+  background-color: #BEDBDC;
+}
+div:nth-child(3) {
+  background-color: #B4F605;
+}
+
+#container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: stretch;
+}
